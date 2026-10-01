@@ -9,4 +9,11 @@ class Settings(BaseSettings):
     monthly_budget: float = 5.00  # USD
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
+    jwt_secret_key: str
+    jwt_algorithm: str = "HS256"
+    access_token_expire_minutes: int = 60
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        extra="ignore",
+    )
 settings = Settings()

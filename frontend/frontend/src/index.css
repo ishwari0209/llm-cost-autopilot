@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #0f1419;
+  color: #e6e8eb;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2a313c transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2a313c;
+  border-radius: 4px;
+}
+
+:focus-visible {
+  outline: 2px solid #4e8cd9;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
