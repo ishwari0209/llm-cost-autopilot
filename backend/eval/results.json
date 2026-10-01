@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "prompt": "What is the capital of France?",
+    "expected": "LOW",
+    "auto": {
+      "text": "The capital of France is Paris.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 8,
+      "output_tokens": 7,
+      "latency_ms": 1369.8,
+      "cost": 1.99e-05,
+      "complexity_score": 0,
+      "complexity_level": "LOW",
+      "routing_reason": "simple factual request",
+      "fallback": false,
+      "fallback_reason": null
+    }
+  },
+  {
+    "id": 2,
+    "prompt": "What is an API?",
+    "expected": "LOW",
+    "auto": {
+      "text": "An **API** stands for **Application Programming Interface**. \n\nThink of an API as a **messenger** or a **waiter** in a restaurant. \n\nHere is how the restaurant analogy works:\n1. You (the user/software) are sitting at a table looking at the menu (the app).\n2. You want to order food (data or a service), but you can't go straight into the kitchen (the server/database).\n3. The **waiter (the API)** takes your order, walks to the kitchen, tells the chef what to do, gets your food, and brings it back to you.\n\n### A Real-World Example\nImagine you are using a travel app like Skyscanner to book a flight. \n* The app doesn't own any airplanes or flight data. \n* Instead, it uses **APIs** to ask airlines (like Delta or United), *\"Hey, what flights do you have from New York to London on Tuesday, and how much do they cost?\"*\n* The airlines' APIs send that information back to Skyscanner, which displays it on your screen.\n\n### Why are APIs important?\n1. **They save time:** Developers don't have to build everything from scratch. If they want a map in their app, they can just plug in the **Google Maps API**.\n2. **They enable integration:** They allow different software systems to talk to each other (e.g., logging into a website using your Google or Facebook account).\n3. **They maintain security:** The API acts as a shield. It gives an app access to *only* the data it needs, without exposing the entire server or database. \n\nIn short, APIs are the invisible glue that makes the modern digital world connected, allowing apps, websites, and devices to share information seamlessly.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 6,
+      "output_tokens": 381,
+      "latency_ms": 2035.0,
+      "cost": 0.0009543,
+      "complexity_score": 0,
+      "complexity_level": "LOW",
+      "routing_reason": "simple factual request",
+      "fallback": false,
+      "fallback_reason": null
+    }
+  },
+  {
+    "id": 3,
+    "prompt": "Define photosynthesis in one sentence.",
+    "expected": "LOW",
+    "auto": {
+      "text": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of glucose, using carbon dioxide and water while releasing oxygen as a byproduct.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 7,
+      "output_tokens": 42,
+      "latency_ms": 889.8,
+      "cost": 0.0001071,
+      "complexity_score": 0,
+      "complexity_level": "LOW",
+      "routing_reason": "simple factual request",
+      "fallback": false,
+      "fallback_reason": null
+    }
+  },
+  {
+    "id": 4,
+    "prompt": "What's 15% of 240?",
+    "expected": "LOW",
+    "auto": {
+      "text": "15% of 240 is **36**.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 14,
+      "output_tokens": 13,
+      "latency_ms": 863.8,
+      "cost": 3.67e-05,
+      "complexity_score": 0,
+      "complexity_level": "LOW",
+      "routing_reason": "simple factual request",
+      "fallback": false,
+      "fallback_reason": null
+    }
+  },
+  {
+    "id": 5,
+    "prompt": "Give me a synonym for 'happy'.",
+    "expected": "LOW",
+    "auto": {
+      "text": "Joyful",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 9,
+      "output_tokens": 2,
+      "latency_ms": 1190.4,
+      "cost": 7.7e-06,
+      "complexity_score": 0,
+      "complexity_level": "LOW",
+      "routing_reason": "simple factual request",
+      "fallback": false,
+      "fallback_reason": null
+    }
+  },
+  {
+    "id": 6,
+    "prompt": "List 3 benefits of exercise.",
+    "expected": "LOW",
+    "auto": {
+      "text": "Here are 3 benefits of exercise:\n\n1. **Improves Physical Health:** Regular exercise strengthens your heart, lowers blood pressure, helps manage weight, and builds muscle and bone strength, which reduces the risk of chronic diseases like type 2 diabetes and heart disease.\n2. **Boosts Mental Health:** Physical activity releases endorphins (often called \"feel-good\" hormones), which can help reduce stress, anxiety, and symptoms of depression while improving overall mood.\n3. **Enhances Energy and Sleep:** Exercise increases your overall energy levels and cardiovascular endurance, and it helps you fall asleep faster and deepen your sleep cycle.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 8,
+      "output_tokens": 129,
+      "latency_ms": 1298.0,
+      "cost": 0.0003249,
+      "complexity_score": 0,
+      "complexity_level": "LOW",
+      "routing_reason": "simple factual request",
+      "fallback": false,
+      "fallback_reason": null
+    }
+  },
+  {
+    "id": 7,
+    "prompt": "What year did World War 2 end?",
+    "expected": "LOW",
+    "auto": {
+      "text": "World War II ended in **1945**. \n\nThe war in Europe concluded with Germany's unconditional surrender in May (often celebrated as V-E Day), and the war in the Pacific officially ended with Japan's surrender signed on September 2, 1945 (V-J Day).",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 10,
+      "output_tokens": 65,
+      "latency_ms": 895.8,
+      "cost": 0.0001655,
+      "complexity_score": 0,
+      "complexity_level": "LOW",
+      "routing_reason": "simple factual request",
+      "fallback": false,
+      "fallback_reason": null
+    }
+  },
+  {
+    "id": 8,
+    "prompt": "Translate 'good morning' to Spanish.",
+    "expected": "LOW",
+    "auto": {
+      "text": "'Good morning' in Spanish is **buenos d\u00edas**.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 9,
+      "output_tokens": 12,
+      "latency_ms": 999.3,
+      "cost": 3.27e-05,
+      "complexity_score": 0,
+      "complexity_level": "LOW",
+      "routing_reason": "simple factual request",
+      "fallback": false,
+      "fallback_reason": null
+    }
+  },
+  {
+    "id": 9,
+    "prompt": "Why do some economies grow while others stagnate despite similar resources?",
+    "expected": "HIGH",
+    "auto": {
+      "text": "The divergence in economic growth between countries with similar natural resources is one of the most studied paradoxes in economics. It highlights a fundamental truth: **natural resources are merely raw inputs; an economy\u2019s long-term growth is determined by how effectively those inputs are transformed into value.**\n\nCountries with identical resources often experience vastly different economic trajectories due to five primary factors: **institutional quality, human capital, economic policies, the \"resource curse,\" and social trust.**\n\n---\n\n### 1. The Primacy of Institutions (Rules of the Game)\nEconomists like Daron Acemoglu and James Robinson (*Why Nations Fail*) argue that institutions are the single most important factor driving economic divergence. Institutions determine the rules of economic life.\n\n* **Inclusive Institutions:** Countries that protect property rights, enforce contracts, maintain an independent judiciary, and prevent corruption encourage people to invest, innovate, and save. If a farmer or entrepreneur knows their profits won't be arbitrarily seized, they will expand their business.\n* **Extractive Institutions:** In stagnating economies, power and wealth are concentrated in the hands of a small elite. Institutions are designed to extract wealth from the majority to benefit the few. In these environments, success depends on political connections rather than productivity, suppressing innovation and investment.\n\n*Example:* North Korea and South Korea shared the same geography, history, culture, and resource base in 1953. Today, South Korea\u2019s GDP per capita is more than 20 times higher, almost entirely due to differences in institutional frameworks.\n\n---\n\n### 2. The \"Resource Curse\" and Dutch Disease\nParadoxically, having an abundance of natural resources often leads to economic stagnation\u2014a phenomenon known as the **Resource Curse**.\n\n* **Dutch Disease:** When a country exports a valuable resource (like oil or minerals), large amounts of foreign currency flow in. This strengthens the national currency, making the country's other exports (like agriculture and manufacturing) uncompetitive globally. Non-resource industries shrink, leaving the economy vulnerable to commodity price shocks.\n* **Rent-Seeking Behavior:** In resource-rich nations, political and business elites often focus on fighting for a piece of the resource pie (\"rents\") rather than creating new wealth through productive enterprise.\n\n*Comparison:* **Norway** and **Venezuela** both possess massive oil reserves. Norway established a transparent sovereign wealth fund, invested in human capital, and maintained strong institutions. Venezuela suffered from hyperinflation, political instability, and nationalized industries, leading to economic collapse.\n\n---\n\n### 3. Human Capital and Technological Adoption\nResources are finite and subject to diminishing returns. Knowledge, technology, and skills, however, generate **increasing returns**.\n\n* **Education and Health:** Economies that invest heavily in healthcare and high-quality education build a adaptable workforce capable of moving up the value chain (from basic resource extraction to high-tech manufacturing and advanced services).\n* **Technological Diffusion:** Growth relies on a country's ability to absorb, adapt, and innovate new technologies. A resource-rich country that simply extracts raw materials will stagnate compared to one that uses technology to process those materials or create higher-margin goods.\n\n---\n\n### 4. Macroeconomic Policies and Governance\nEven with abundant resources, poor government management can destroy economic capacity through instability.\n\n* **Monetary and Fiscal Discipline:** Growing economies maintain stable inflation, manageable public debt levels, and realistic exchange rates. Stagnating economies often resort to printing money to fund government deficits, leading to hyperinflation (e.g., Zimbabwe, Venezuela).\n* **Openness to Trade and Competition:** Economies that foster internal competition and remain open to international trade subject their domestic industries to global standards, driving efficiency. Protectionist, heavily regulated economies tend to foster inefficient monopolies that drag down productivity.\n\n---\n\n### 5. Social Capital and Trust\nEconomic transactions are cheaper and faster when people trust each other and trust the system.\n\n* **Transaction Costs:** In high-trust societies (e.g., Scandinavia), businesses spend less money on legal battles, security, and bribes. Contracts are honored, and cooperation is high.\n* **Social Cohesion:** In deeply divided societies (along ethnic, religious, or class lines), economic policy is often hijacked to favor specific groups at the expense of national productivity, frequently leading to civil unrest or conflict over control of resources.\n\n---\n\n### Summary\n\nHaving natural resources is like being dealt a good hand in cards; it gives a country a starting advantage. However, **growth is determined by how the hand is played.** \n\nEconomies grow when they use resource revenues to build strong institutions, educate their workforce, foster open markets, and invest in technology. They stagnate when resource wealth leads to corruption, neglect of broader economic sectors, and short-sighted government policies.",
+      "model": "gemini-3.6-flash",
+      "input_tokens": 14,
+      "output_tokens": 2053,
+      "latency_ms": 14097.4,
+      "cost": 0.00770925,
+      "complexity_score": 5,
+      "complexity_level": "HIGH",
+      "routing_reason": "high-complexity reasoning: despite, why do",
+      "fallback": false,
+      "fallback_reason": null
+    }
+  },
+  {
+    "id": 10,
+    "prompt": "What causes some people to be more creative than others?",
+    "expected": "MEDIUM",
+    "auto": {
+      "text": "The question of why some people are more creative than others is one of the most fascinating topics in psychology and neuroscience. Creativity is not a single, magical \"spark\"; rather, it is a complex cocktail of **genetics, neurobiology, environment, personality, and practice**. \n\nHere is a breakdown of what research suggests makes some people more creative than others:\n\n---\n\n### 1. Neurobiology: How the Brain is Wired\nNeuroscientists have found that creative people don\u2019t necessarily use *more* of their brains, but they use them *differently*. Highly creative individuals often show unique patterns in three specific brain networks:\n* **The Default Mode Network (Imagination):** This network lights up when we daydream, imagine the future, and combine disparate ideas. In creative people, this network is exceptionally active and connected.\n* **The Executive Control Network (Focus and Evaluation):** This network helps us plan, focus, and critically evaluate our ideas. \n* **The Salience Network (The Switchboard):** This network decides which thoughts are important enough to bring to our conscious attention.\n\n**The \"Super-Highway\" Brain:** Research (such as studies by Dr. Roger Beaty at Harvard) shows that highly creative people have stronger white-matter connections *between* these networks. While a non-creative brain might keep daydreaming and critical thinking separate, a creative brain allows these systems to communicate rapidly, enabling someone to dream up a wild idea and immediately evaluate its usefulness.\n\n### 2. Personality Traits\nPsychologists have identified specific personality traits that strongly correlate with high levels of creativity. The most prominent is **Openness to Experience** (one of the \"Big Five\" personality traits). People high in openness are:\n* Naturally curious and intellectually inquisitive.\n* Drawn to novelty, complexity, and ambiguity.\n* Willing to challenge norms and take social or intellectual risks.\n* **Tolerance for Ambiguity:** Creative people are often comfortable not knowing the answer right away, allowing them to sit with a problem longer to find a unique solution.\n\n### 3. Cognitive Styles: Divergent Thinking\nCreativity heavily relies on **divergent thinking**\u2014the ability to generate many different ideas or solutions from a single prompt\u2014as opposed to *convergent thinking*, which looks for one single, correct answer. \n* Creative people are adept at **associative thinking**, meaning their brains make distant connections between unrelated concepts (e.g., seeing a connection between a zipper and a spiderweb). \n* They also possess **cognitive flexibility**, the ability to switch between different concepts and perspectives quickly.\n\n### 4. Environment and Upbringing\nNurture plays a massive role. People are often more creative if their environment encourages it:\n* **Early Exposure and Adversity:** Interestingly, studies show that a disproportionate number of highly creative people experienced early life challenges, trauma, or non-traditional upbringings. Overcoming adversity can force children to develop independent thinking, resilience, and novel ways of coping.\n* **Cultural and Social Freedom:** Environments that reward curiosity, tolerate failure, and value self-expression foster creativity. Conversely, rigid, highly conformist environments tend to suppress it.\n\n### 5. Expertise and \"Deliberate Practice\"\nAs the psychologist K. Anders Ericsson noted, true creative breakthroughs usually require deep domain knowledge. You generally cannot revolutionize a field (be it physics, painting, or cooking) without deeply understanding its rules first. \n* **The 10-Year Rule:** It often takes about a decade of immersion and hard work in a specific domain to build the neural architecture required for world-class creative output. \n* **Flow State:** Highly creative people have often trained themselves to access \"flow\"\u2014a mental state of deep absorption where self-consciousness vanishes and productivity surges.\n\n### 6. Motivation\nIntrinsic motivation\u2014doing something because you find it inherently interesting, satisfying, or challenging\u2014is a massive driver of creativity. People driven primarily by extrinsic rewards (money, status, grades) are often less creative than those driven by sheer curiosity and passion for the work itself.\n\n---\n\n### Can Creativity Be Learned?\n**Yes, absolutely.** While genetics and early upbringing set a baseline, creativity is largely a skill, not a fixed trait. Anyone can become *more* creative by:\n1. **Practicing divergent thinking:** (e.g., listing 50 alternative uses for a paperclip).\n2. **Exposing themselves to novelty:** Traveling, reading outside their genre, learning a new instrument, or talking to people with different viewpoints.\n3. **Allowing failure:** Lowering the internal critic long enough to generate bad ideas, knowing that good ideas are usually born from bad ones. \n\nIn short, some people appear more creative because their brains make connections faster, their personalities push them to explore the unknown, and their habits allow them to turn raw curiosity into tangible output.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 12,
+      "output_tokens": 1017,
+      "latency_ms": 5371.0,
+      "cost": 0.0025461,
+      "complexity_score": 3,
+      "complexity_level": "MEDIUM",
+      "routing_reason": "moderate reasoning: creative",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 11,
+    "prompt": "How should I think about switching careers at 35?",
+    "expected": "MEDIUM",
+    "auto": {
+      "text": "Switching careers at 35 is no longer the radical, life-upending move it used to be. In fact, it has become the modern norm. \n\nAt 35, you have a massive advantage: **you are not starting over; you are starting over *experienced*.** You bring a decade of professional maturity, emotional intelligence, and transferable skills that a 22-year-old simply doesn't have.\n\nTo navigate this successfully, here is a framework on how to think about the transition, your timeline, and your mindset.\n\n---\n\n### 1. Shift Your Mindset: It\u2019s an Evolution, Not a Reset\nMany people paralyze themselves by thinking, *\"I\u2019ve wasted the last 10 years; I have to throw it all away and start at the bottom.\"* \n\nThis is false. Think of your career in chapters. Chapter One (22\u201335) was about **discovery, building a work ethic, and figuring out what you *don't* want.** Chapter Two (35+) is about **intentionality.** You are taking the core skills you\u2019ve built (communication, project management, problem-solving, leadership) and applying them to a new arena.\n\n### 2. Audit Your \"Why\"\nBefore updating your resume, get brutally honest about *why* you want to switch. Career dissatisfaction usually stems from one of three things:\n* **The Content:** You hate the actual daily tasks (e.g., you\u2019re an accountant who hates numbers).\n* **The Context:** You like the work, but hate the industry, the company culture, or your boss.\n* **The Constraints:** You want more flexibility, better pay, or remote work that your current path doesn't allow.\n\n**Why this matters:** If your problem is \"Context,\" you don't need a new career; you just need a new job or industry. Don't blow up your entire professional life if a lateral move within your current field will fix the issue.\n\n### 3. Leverage the \"Pivot,\" Not the Plunge\nUnless you are stepping into a completely regulated field (like medicine or law), you rarely need to go back to square one. Look for **adjacent moves** where your current skills transfer over 50\u201370%.\n\n* *Example:* If you\u2019re a frustrated teacher (age 35) wanting to leave education, you shouldn't become an entry-level coder. You should look at **EdTech, Corporate Training, or Customer Success**, where your ability to explain complex ideas and manage groups makes you instantly valuable.\n* *Example:* A journalist moving into PR or content marketing. \n\n### 4. Financial Realism (The 35-Year-Old Reality)\nAt 35, you likely have different financial obligations than you did at 25\u2014perhaps a mortgage, a family, or simply a lifestyle you\u2019ve grown accustomed to. \n* **Expect a potential temporary dip:** You may have to take a slight pay cut to break into a new field, though your maturity often helps you negotiate higher entry-level salaries than younger peers.\n* **Build a runway:** Save 3 to 6 months of living expenses before making a hard jump.\n* **The \"Side-Door\" Approach:** Can you start learning the new skill or taking on freelance projects in your spare time while keeping your current job? \n\n### 5. Play the Long Game (The Math)\nIf you retire at 65, **you still have 30 years left in your working life.** \n\nLet that sink in. At 35, you are only *halfway* to retirement. Would you rather spend the next 30 years doing something that drains you just because you've already invested 10 years in it? (This is known as the \"Sunk Cost Fallacy\"). Investing 1\u20132 years to pivot into a 28-year career you actually enjoy is the best ROI of your life.\n\n### 6. Actionable Next Steps\nIf you want to move forward, don't just sit and think\u2014test:\n1. **Talk to three people** who are currently doing the job you *think* you want. Ask them about the worst parts of the job, not just the glamorous parts.\n2. **Do a low-stakes audit:** Take an online course, do a weekend project, or take on a pro-bono task to see if you actually *like* doing the day-to-day work of the new field.\n3. **Rewrite your narrative:** Practice explaining your career change in 60 seconds. Make it about *adding* to your story, not escaping your past. (\"I spent 10 years mastering X, and now I want to apply those skills to solve problems in Y.\")\n\nAt 35, you have youth, energy, and wisdom. That is a lethal combination for success.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 13,
+      "output_tokens": 1042,
+      "latency_ms": 5667.0,
+      "cost": 0.0026089,
+      "complexity_score": 3,
+      "complexity_level": "MEDIUM",
+      "routing_reason": "moderate reasoning: how, should, career",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 12,
+    "prompt": "Is it better to rent or buy a home right now?",
+    "expected": "MEDIUM",
+    "auto": {
+      "text": "Deciding whether to rent or buy a home right now is one of the most complex financial questions, largely because the current housing market is in an unusual state. High interest rates, elevated home prices, and stubborn inflation have created what many economists call a **\"lock-in effect,\"** making renting significantly cheaper than buying on a monthly basis in many major US markets.\n\nHowever, the \"right\" choice depends heavily on your personal finances, your local market, and how long you plan to stay put. \n\nHere is a breakdown of how to evaluate renting vs. buying in the current economic climate.\n\n---\n\n### Phase 1: The Current State of the Market\n\nBefore looking at your personal situation, it helps to understand the macro-environment:\n\n*   **Mortgage Rates:** After hitting a peak near 8% in late 2023, rates have hovered in the mid-to-high 6% range. While down from the peak, this is still double the historic lows of the pandemic era (around 3%).\n*   **Home Prices:** Despite high interest rates, home prices have not crashed. Why? Because millions of current homeowners secured 3% rates years ago and refuse to sell, creating a severe shortage of housing inventory. High demand + low supply = stubborn prices.\n*   **The \"Rent vs. Buy\" Gap:** According to recent data from Realtor.com and similar firms, the monthly cost of buying a starter home is significantly higher than renting an equivalent property in almost all major U.S. metro areas. \n\n---\n\n### When Buying Makes Sense Right Now\n\nDespite the high costs, buying can still be the right move if your personal circumstances align with the following factors:\n\n1.  **You Plan to Stay for 5\u20137 Years (Minimum):** Real estate transactions involve massive upfront and closing costs (usually 2% to 5% of the purchase price) and selling costs (around 6% in agent commissions). You need enough time in the home for the property to appreciate and offset these costs.\n2.  **You Have a Stable Income and Solid Savings:** Beyond the down payment (ideally 20% to avoid Private Mortgage Insurance, though lower is possible), you need a robust emergency fund. Homes come with surprise expenses\u2014a broken HVAC system, a leaky roof, or plumbing failures\u2014that landlords usually fix for renters.\n3.  **You Want Stability and Control:** Renters face the constant risk of rent hikes or landlords deciding to sell the property. Buying locks in your principal and interest payment for 15 to 30 years (though property taxes and homeowners insurance will likely still rise).\n4.  **You Want to Build Long-Term Wealth:** Historically, real estate is a forced savings account. Every month, a portion of your mortgage payment goes toward principal, building equity over time. Rent payments, by contrast, build zero equity for you.\n5.  **You Can Strategize for Future Refinancing:** Some buyers purchase now with the expectation that mortgage rates may drop in the next few years, allowing them to refinance to a lower monthly payment later. *(Warning: Never buy assuming you can refinance; treat the current rate as your reality.)*\n\n---\n\n### When Renting Makes Sense Right Now\n\nFor many people, renting is currently the smarter financial strategy because it preserves cash flow and flexibility. Renting makes sense if:\n\n1.  **Your Monthly Mortgage Payment Would Drown You:** Financial experts generally recommend the **28/36 rule**\u2014your housing costs shouldn't exceed 28% of your gross monthly income, and total debt service shouldn't exceed 36%. If buying means spending 40% to 50% of your income on housing, you will be \"house poor\" with no money for savings, travel, or emergencies.\n2.  **You Might Move in 1 to 4 Years:** If there is a chance you\u2019ll change jobs, relocate cities, or outgrow the home in the short term, buying will almost certainly result in a net financial loss due to transaction fees.\n3.  **You Want to Invest the Difference:** Renting is often cheaper than buying right now. If you buy a home, you might have $1,000 extra going toward housing costs compared to renting. If you rent and consistently invest that $1,000 difference into the stock market (via index funds, high-yield savings, or retirement accounts), you may end up with a portfolio that rivals or beats real estate appreciation.\n4.  **You Value Flexibility and Low Maintenance:** When a pipe bursts, a renter calls the landlord. When a pipe bursts for a homeowner, they call a plumber and write a large check. Renting gives you the freedom to pick up and leave at the end of a lease.\n\n---\n\n### Questions to Ask Yourself\n\nTo make the final decision, run the numbers for your specific situation:\n\n1.  **What is the Price-to-Rent Ratio?** Divide the purchase price of a home you like by the annual rent of a similar home. \n    *   *Under 15:* Usually better to buy.\n    *   *16 to 20:* A toss-up; depends on how long you stay.\n    *   *Over 21:* Usually better to rent and invest the difference. *(Many US cities currently have ratios well above 20).*\n2.  **Can I afford \"PITI\"?** Ensure you are calculating more than just the mortgage principal and interest. Can you afford **PITI**\u2014Principal, Interest, Taxes, and Insurance\u2014plus HOA fees and maintenance?\n3.  **Am I buying out of \"FOMO\" (Fear Of Missing Out) or necessity?** Never buy a home simply because you're tired of renting or because you think prices will keep rising forever. Buy when your life is stable and the math works.\n\n### The Bottom Line\nIf you plan to stay put for a decade, find a home well within your budget, and value the stability of homeownership, **buying** can still be a sound long-term wealth-building tool\u2014even in a tough market. \n\nHowever, if buying stretches your finances to the limit, ties you down to a location you might leave soon, or costs vastly more than local rent, **renting** is the financially disciplined choice right now. Use the savings to build up your investments and wait for a more favorable interest rate environment.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 13,
+      "output_tokens": 1357,
+      "latency_ms": 6250.2,
+      "cost": 0.0033964,
+      "complexity_score": 3,
+      "complexity_level": "MEDIUM",
+      "routing_reason": "moderate reasoning: rent or buy",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 13,
+    "prompt": "What makes a good leader during a crisis?",
+    "expected": "MEDIUM",
+    "auto": {
+      "text": "A crisis strips away routine and exposes the true character of a leadership structure. What makes a good leader during a calm period (management, long-term planning, consensus-building) often changes during a crisis, where the needs of the team shift dramatically toward survival, stability, and direction. \n\nHere are the key traits that define a great crisis leader:\n\n### 1. Radical Transparency and Decisive Communication\nDuring a crisis, a vacuum of information is quickly filled by panic, rumor, and fear. \n* **Truth over comfort:** Good leaders do not sugarcoat the reality of the situation. They tell people what they know, what they don\u2019t know, and what the worst-case scenarios might be.\n* **Clarity and frequency:** They communicate often, simply, and consistently. In a crisis, people cannot process complex, jargon-filled updates. The message must be clear: *Here is where we are, here is what we are doing, and here is what is expected of you.*\n\n### 2. Emotional Regulation (Calm Under Pressure)\nNeuroscience shows that human emotions are contagious\u2014especially fear and panic. \n* **The \"Limbic Anchor\":** A good leader acts as an emotional anchor for the team. If the leader is frantic, the team panics. If the leader remains calm and focused, it signals to others that the situation, while difficult, is manageable.\n* **Controlled urgency:** They project urgency without inducing panic. They move fast, but they do not rush blindly.\n\n### 3. Decisiveness in Ambiguity\nIn a crisis, you rarely have 100% of the information you need. Waiting for perfect data is fatal.\n* **Action over paralysis:** Good leaders are comfortable making high-stakes decisions with incomplete information. \n* **Adaptability:** They make a call, observe the outcome, and pivot quickly if the situation changes. They understand that a wrong decision can often be corrected, but indecision guarantees failure.\n\n### 4. Empathetic and Human-Centric Focus\nA crisis is, at its core, a human experience. People are worried about their safety, their jobs, their families, and their mental health.\n* **Empathy first:** Effective leaders acknowledge the human toll of the crisis. They listen to fears and frustrations without dismissing them.\n* **Psychological safety:** They create an environment where team members feel safe admitting mistakes, reporting bad news, or asking for help without fear of retribution. \n\n### 5. Clear Delegation and Trust\nNo single person can manage a major crisis alone. Micromanagement leads to bottlenecks and burnout.\n* **Empowering others:** Good leaders define the overarching goal and then trust competent people on their team to execute specific domains. \n* **Removing roadblocks:** Instead of telling people *how* to do their jobs, crisis leaders ask their teams, *\"What do you need from me to get this done?\"* and then clear the path.\n\n### 6. Optimism Grounded in Reality\nBlind optimism (\"Everything is going to be fine!\") is toxic during a crisis because it lacks credibility. However, total pessimism is paralyzing.\n* **Stockdale Paradox:** Named after Admiral Jim Stockdale (who survived years in a Vietnam POW camp), great leaders retain the unwavering belief that they will prevail in the end, *while simultaneously* confronting the most brutal facts of their current reality. \n* They offer a credible vision of the future: *\"This is going to be hard, but here is how we are going to get through it together.\"*\n\n### 7. Post-Crisis Reflection and Accountability\nA crisis doesn't truly end when the immediate danger passes; its echoes remain.\n* **Blameless post-mortems:** Once the dust settles, good leaders look objectively at what went wrong and what went right, focusing on system failures rather than scapegoating individuals.\n* **Resilience building:** They use the lessons learned to harden the organization against future crises, turning a traumatic event into a catalyst for growth.\n\n**Summary:** \nUltimately, a good crisis leader is a paradox: **they are fiercely decisive yet deeply empathetic, urgently active yet radically calm.** They provide the psychological anchor that allows a group of people to stop panicking and start solving problems.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 10,
+      "output_tokens": 892,
+      "latency_ms": 4552.0,
+      "cost": 0.002233,
+      "complexity_score": 3,
+      "complexity_level": "MEDIUM",
+      "routing_reason": "moderate reasoning: leader, crisis",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 14,
+    "prompt": "Why did the Roman Empire eventually collapse?",
+    "expected": "HIGH",
+    "auto": {
+      "text": "The collapse of the Roman Empire is one of the most studied events in history. Historians generally agree that there was no single cause; rather, a combination of internal decay, economic troubles, and external pressures caused the empire to crumble over several centuries. \n\nFurthermore, historians often clarify that **only the Western Roman Empire collapsed** in 476 CE; the Eastern Roman Empire (known as the Byzantine Empire) continued for another thousand years, until 1453.\n\nHere are the primary reasons for the fall of the Western Roman Empire:\n\n### 1. Barbarian Invasions\nFor centuries, Rome successfully defended its borders against outside tribes, whom the Romans called \"barbarians\" (meaning non-Romans). However, by the 4th and 5th centuries, tribes like the Visigoths, Vandals, Franks, and Ostrogoths migrated into Roman territory, pushed westward by the Huns from Central Asia. \n* The Roman military, overextended and underfunded, could no longer hold them back. \n* In 410 CE, the Visigoths sacked the city of Rome for the first time in 800 years. \n* Finally, in 476 CE, the Germanic chieftain Odoacer deposed the last Western Roman Emperor, Romulus Augustulus.\n\n### 2. Economic Crisis and Overreliance on Slave Labor\nThe Roman economy was built on conquest. When expansion stopped, the supply of new wealth and enslaved people\u2014which the economy heavily depended on\u2014dried up.\n* **Inflation:** To pay its massive expenses, the government minted more coins, but with less silver content. This caused severe inflation, and Roman currency eventually became nearly worthless, forcing people to revert to a barter system.\n* **Heavy Taxation:** To maintain the army and government, emperors imposed crushing taxes on citizens, which drove many small farmers and business owners into poverty or debt slavery.\n\n### 3. Political Instability and Corruption\nThe Roman political system, particularly the office of the Emperor, was plagued by instability. \n* Unlike modern monarchies, Rome lacked a clear rule of succession. This led to constant civil wars and assassinations. \n* During the \"Crisis of the Third Century\" (235\u2013284 CE), Rome had more than 20 emperors in just 50 years, most of whom were murdered by their own guards or rivals. This constant internal chaos distracted Rome from external threats.\n\n### 4. Military Overexpansion and Overreliance on Mercenaries\nAt its height, the Roman Empire was simply too vast to govern and defend effectively. \n* Maintaining legions along thousands of miles of borders drained the treasury.\n* Because citizens were no longer willing to serve in the military, Rome increasingly relied on **mercenaries** (foreign soldiers, often Germanic tribesmen) to fight its wars. These mercenaries were expensive, had no loyalty to the Roman state, and sometimes turned against Rome.\n\n### 5. Division of the Empire\nRecognizing that the empire was too big for one man to rule, Emperor Diocletian split it into two parts in the late 3rd century: the **Western Empire** (ruled from Rome, later Milan and Ravenna) and the **Eastern Empire** (ruled from Constantinople). \n* The Eastern half was far richer, more urbanized, and had more trade routes. \n* The Western half was poorer, more rural, and bore the brunt of barbarian invasions. Over time, the East failed to provide meaningful military or financial aid to the West, leaving it to fend for itself.\n\n### 6. The Rise of Christianity\nIn the 4th century, Christianity became the official religion of the empire (under Constantine and Theodosius). Some 18th-century historians, most notably Edward Gibbon, argued that the shift from traditional Roman civic religion (which emphasized military glory and loyalty to the state) to Christianity (which focused on a heavenly kingdom and pacifism) undermined the traditional warrior ethos of Rome. While most modern historians reject this as the primary cause, the ideological shift certainly changed Roman society.\n\n---\n\n### Summary\nThe fall of Rome was not a sudden event, but a slow process of **attrition**. The empire was hollowed out from the inside by economic collapse, political corruption, and military overextension, making it impossible to withstand the waves of migrating tribes pushing into its territory from the outside.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 9,
+      "output_tokens": 917,
+      "latency_ms": 4412.4,
+      "cost": 0.0022952,
+      "complexity_score": 5,
+      "complexity_level": "HIGH",
+      "routing_reason": "high-complexity reasoning: why did",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 15,
+    "prompt": "Can you help me debug this function? It's throwing a stack trace error I don't understand.",
+    "expected": "MEDIUM",
+    "auto": {
+      "text": "I would be happy to help! However, you didn't include the function or the stack trace. \n\nPlease reply with:\n1. **The code** for the function.\n2. **The exact stack trace** (or error message) you are receiving.\n3. **What language/framework** you are using (e.g., Python, JavaScript/React, C#).\n4. **What the function is supposed to do** (if it's not obvious).\n\nOnce you share those, we can figure out what's going wrong!",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 23,
+      "output_tokens": 118,
+      "latency_ms": 1449.6,
+      "cost": 0.0003019,
+      "complexity_score": 3,
+      "complexity_level": "MEDIUM",
+      "routing_reason": "moderate reasoning: debug, function, stack trace",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 16,
+    "prompt": "Write a Python function to reverse a linked list.",
+    "expected": "MEDIUM",
+    "auto": {
+      "text": "Here is the Python code to reverse a singly linked list. \n\nFirst, let's define the `Node` class so you have the complete, working context:\n\n```python\nclass Node:\n    def __init__(self, val=0, next=None):\n        self.val = val\n        self.next = next\n\n\ndef reverse_linked_list(head: Node) -> Node:\n    prev = None\n    current = head\n\n    while current is not None:\n        next_node = current.next  # Temporarily store the next node\n        current.next = prev  # Reverse the current node's pointer\n        prev = current  # Move the 'prev' pointer forward\n        current = next_node  # Move the 'current' pointer forward\n\n    # 'prev' will be pointing to the new head of the reversed list\n    return prev\n```\n\n### How it works:\n1. We initialize two pointers: `prev` as `None` (which will become the new tail's `next`) and `current` starting at the `head`.\n2. We loop through the list until `current` becomes `None`.\n3. Inside the loop, we:\n   - Save the reference to the next node (`next_node = current.next`) so we don't lose the rest of the list.\n   - Reverse the link (`current.next = prev`).\n   - Shift both `prev` and `current` one step forward.\n4. When the loop finishes, `current` is `None` and `prev` is pointing at the new head of the reversed list.\n\n### Complexity:\n* **Time Complexity:** $O(n)$, where $n$ is the number of nodes in the linked list. We traverse the list exactly once.\n* **Space Complexity:** $O(1)$, because we only use a few pointers, operating entirely in-place.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 11,
+      "output_tokens": 409,
+      "latency_ms": 2271.8,
+      "cost": 0.0010258,
+      "complexity_score": 3,
+      "complexity_level": "MEDIUM",
+      "routing_reason": "moderate reasoning: function, python",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 17,
+    "prompt": "Explain the difference between SQL JOIN types with examples.",
+    "expected": "MEDIUM",
+    "auto": {
+      "text": "SQL JOINs are used to combine rows from two or more tables based on a related column between them. \n\nTo explain the differences, let\u2019s use two sample tables: **`Employees`** and **`Departments`**.\n\n### 1. `Employees` Table\n| Emp_ID | Emp_Name | Dept_ID |\n| :--- | :--- | :--- |\n| 1 | Alice | 10 |\n| 2 | Bob | 20 |\n| 3 | Charlie | 30 |\n| 4 | David | NULL | *(Not assigned to a department)*\n\n### 2. `Departments` Table\n| Dept_ID | Dept_Name |\n| :--- | :--- |\n| 10 | HR |\n| 20 | IT |\n| 40 | Finance | *(No employees in this department)*\n\n---\n\n### 1. INNER JOIN\nAn **INNER JOIN** returns only the records that have matching values in both tables. Any rows that do not match are discarded.\n\n* **SQL Query:**\n  ```sql\n  SELECT Employees.Emp_Name, Departments.Dept_Name\n  FROM Employees\n  INNER JOIN Departments ON Employees.Dept_ID = Departments.Dept_ID;\n  ```\n* **Result:**\n  | Emp_Name | Dept_Name |\n  | :--- | :--- |\n  | Alice | HR |\n  | Bob | IT |\n* *Why?* Alice (Dept 10) and Bob (Dept 20) match. Charlie (Dept 30) and David (NULL) are excluded because their `Dept_ID`s don't exist in the `Departments` table. Finance (Dept 40) is excluded because no employee has that ID.\n\n---\n\n### 2. LEFT JOIN (or LEFT OUTER JOIN)\nA **LEFT JOIN** returns all records from the left table (`Employees`), and the matched records from the right table (`Departments`). If there is no match, the right side will return `NULL`.\n\n* **SQL Query:**\n  ```sql\n  SELECT Employees.Emp_Name, Departments.Dept_Name\n  FROM Employees\n  LEFT JOIN Departments ON Employees.Dept_ID = Departments.Dept_ID;\n  ```\n* **Result:**\n  | Emp_Name | Dept_Name |\n  | :--- | :--- |\n  | Alice | HR |\n  | Bob | IT |\n  | Charlie | NULL |\n  | David | NULL |\n* *Why?* All employees are listed. Charlie and David don't have matching departments in the `Departments` table, so they get `NULL` for `Dept_Name`.\n\n---\n\n### 3. RIGHT JOIN (or RIGHT OUTER JOIN)\nA **RIGHT JOIN** is the exact opposite of a LEFT JOIN. It returns all records from the right table (`Departments`), and the matched records from the left table (`Employees`). If there is no match, the left side will return `NULL`.\n\n* **SQL Query:**\n  ```sql\n  SELECT Employees.Emp_Name, Departments.Dept_Name\n  FROM Employees\n  RIGHT JOIN Departments ON Employees.Dept_ID = Departments.Dept_ID;\n  ```\n* **Result:**\n  | Emp_Name | Dept_Name |\n  | :--- | :--- |\n  | Alice | HR |\n  | Bob | IT |\n  | NULL | Finance |\n* *Why?* All departments are listed. Finance has no employees assigned to it, so the `Emp_Name` returns `NULL`.\n\n---\n\n### 4. FULL OUTER JOIN (or FULL JOIN)\nA **FULL OUTER JOIN** returns all records when there is a match in either the left or the right table. If there is no match, the missing side will contain `NULL`. It is essentially a combination of a Left and Right join.\n\n* **SQL Query:**\n  ```sql\n  SELECT Employees.Emp_Name, Departments.Dept_Name\n  FROM Employees\n  FULL OUTER JOIN Departments ON Employees.Dept_ID = Departments.Dept_ID;\n  ```\n* **Result:**\n  | Emp_Name | Dept_Name |\n  | :--- | :--- |\n  | Alice | HR |\n  | Bob | IT |\n  | Charlie | NULL |\n  | David | NULL |\n  | NULL | Finance |\n* *Why?* You get everything: matched rows, unmatched employees (Charlie, David), and unmatched departments (Finance).\n\n---\n\n### 5. CROSS JOIN\nA **CROSS JOIN** produces the Cartesian product of the two tables. It pairs *every* row from the first table with *every* row from the second table. **Note:** You do not use an `ON` clause for a Cross Join.\n\n* **SQL Query:**\n  ```sql\n  SELECT Employees.Emp_Name, Departments.Dept_Name\n  FROM Employees\n  CROSS JOIN Departments;\n  ```\n* **Result (Partial):**\n  If Employees has 4 rows and Departments has 3 rows, the result will have $4 \\times 3 = 12$ rows.\n  | Emp_Name | Dept_Name |\n  | :--- | :--- |\n  | Alice | HR |\n  | Alice | IT |\n  | Alice | Finance |\n  | Bob | HR |\n  | ... | ... |\n\n---\n\n### Summary Cheat Sheet\n\n| Join Type | What it returns | Unmatched Rows |\n| :--- | :--- | :--- |\n| **INNER** | Only matches | Excluded |\n| **LEFT** | All left + matches | Right side becomes `NULL` |\n| **RIGHT** | All right + matches | Left side becomes `NULL` |\n| **FULL** | Everything | Both sides can become `NULL` |\n| **CROSS** | Every possible combination | N/A (Multiplies rows) |",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 11,
+      "output_tokens": 1281,
+      "latency_ms": 4219.7,
+      "cost": 0.0032058,
+      "complexity_score": 3,
+      "complexity_level": "MEDIUM",
+      "routing_reason": "moderate reasoning: difference, explain, sql",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 18,
+    "prompt": "My React app re-renders infinitely, here's the code, what's wrong?",
+    "expected": "MEDIUM",
+    "auto": {
+      "text": "It looks like you forgot to include the code! \n\nPlease paste the code snippet that is causing the infinite re-render, and I will gladly take a look and help you fix it. \n\n*(In the meantime, if you want to guess, 9 times out of 10, infinite re-renders in React happen because of calling `setState` directly inside the render body instead of inside a `useEffect` or an event handler!)*",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 20,
+      "output_tokens": 92,
+      "latency_ms": 1092.8,
+      "cost": 0.000236,
+      "complexity_score": 3,
+      "complexity_level": "MEDIUM",
+      "routing_reason": "moderate reasoning: code, react",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 19,
+    "prompt": "Analyze this 20-page technical document and identify architectural weaknesses, then explain step by step how you'd fix them, considering trade-offs and root causes.",
+    "expected": "HIGH",
+    "auto": {
+      "text": "It looks like you forgot to attach or paste the 20-page technical document! \n\nPlease share the text, upload the document, or provide a summary of the system architecture, and I will gladly dive in. \n\nOnce you provide it, I will break down my analysis using the following structured approach:\n\n1. **Architectural Weaknesses Identification:** Pinpoint bottlenecks, single points of failure, security gaps, scalability limits, or anti-patterns present in the text.\n2. **Root Cause Analysis:** Explain *why* these weaknesses exist (e.g., legacy constraints, scaling assumptions that were outgrown, tight coupling).\n3. **Step-by-Step Remediation Plan:** Provide a clear, phased roadmap to fix the issues.\n4. **Trade-off Analysis:** Discuss what is gained and lost (e.g., increased complexity vs. better fault tolerance, higher cost vs. lower latency) for each proposed fix.\n\nWhenever you're ready, drop the document or details below!",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 35,
+      "output_tokens": 209,
+      "latency_ms": 1523.7,
+      "cost": 0.000533,
+      "complexity_score": 8,
+      "complexity_level": "HIGH",
+      "routing_reason": "high-complexity reasoning: analyze, root cause, trade-off; multi-step task (+3)",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 20,
+    "prompt": "Compare microservices vs monolith architecture for a startup with 5 engineers, considering cost, complexity, and hiring.",
+    "expected": "HIGH",
+    "auto": {
+      "text": "For a startup with **5 engineers**, the choice between microservices and a monolith is not even close: **Build a modular monolith.** \n\nChoosing microservices at this stage is one of the fastest ways for a small startup to burn through its runway, slow down product delivery, and burn out its engineering team. \n\nHere is a direct comparison across cost, complexity, and hiring, tailored specifically to a 5-person engineering team.\n\n---\n\n### 1. Cost (Infrastructure & Opportunity Cost)\n\n*   **Monolith:** \n    *   *Infra Cost:* Very low. You run a single server (or a couple for redundancy) and a single database. Hosting can be almost free on platforms like Render, Railway, or Fly.io.\n    *   *Opportunity Cost:* Extremely low. Your engineers spend 90% of their time writing code that solves user problems and generates revenue.\n*   **Microservices:** \n    *   *Infra Cost:* High. Even simple architectures require multiple containers, an orchestration layer (like Kubernetes or ECS), an API gateway, service meshes, multiple databases, and complex networking. \n    *   *Opportunity Cost:* Catastrophic. With 5 engineers, you will easily lose the equivalent of 1 full-time engineer just managing infrastructure, CI/CD pipelines, and DevOps tooling. That is **20% of your total engineering capacity** wasted on plumbing.\n\n### 2. Complexity (Architecture & Operations)\n\n*   **Monolith:** \n    *   *Development:* Low. To add a feature, an engineer writes code, tests it locally, and deploys a single artifact. \n    *   *Debugging:* Low. If something breaks, you look at one log file. Stack traces are straightforward. Transactions happen in a single database (ACID compliance is built-in).\n*   **Microservices:** \n    *   *Development:* High. You have to deal with distributed systems problems: eventual consistency, network latency, API versioning, and cascading failures. \n    *   *Debugging:* Nightmare. When a request fails, it might touch five different services. You cannot debug locally easily; you need distributed tracing tools (like Datadog or Jaeger) just to figure out *where* the error happened. \n\n### 3. Hiring & Team Dynamics\n\n*   **Monolith:**\n    *   *Onboarding:* Fast. A new hire can clone the repo, run one command, and understand the entire business logic within a week. \n    *   *Skillset:* Generalists (\"full-stack\" engineers) thrive here. Your 5 engineers can all work on any part of the product, creating natural redundancy if someone goes on vacation or leaves.\n*   **Microservices:**\n    *   *Onboarding:* Slow. A new hire has to learn the nuances of dozens of repositories, internal SDKs, and deployment pipelines. It can take months before they are productive.\n    *   *Skillset:* Requires specialists. With only 5 people, you likely don't have a dedicated DevOps/Platform engineer. Splitting 5 people across 10 microservices means engineers end up working in silos, creating \"bus factor\" bottlenecks (e.g., *\u201cOnly Bob knows how the billing service works\u201d*).\n\n---\n\n### Summary Table\n\n| Metric | Monolith (Recommended) | Microservices (Avoid) |\n| :--- | :--- | :--- |\n| **Speed to Market** | **Fast** (Ship features in days) | **Slow** (Bogged down by coordination) |\n| **Infrastructure Spend** | **$50 \u2013 $200 / month** | **$1,000+ / month** |\n| **DevOps Overhead** | Minimal (GitHub Actions + PaaS) | Massive (K8s, Terraform, monitoring) |\n| **Team Agility** | High (Everyone touches everything) | Low (Silos, blocked by API contracts) |\n| **Risk of Failure** | Low | High (Premature optimization) |\n\n---\n\n### The Startup Recommendation: The \"Modular Monolith\"\n\nStartups rarely fail because their monolith got too big; **startups fail because they run out of money before finding product-market fit.** \n\nYou should build a **Modular Monolith**:\n1. Write your code in a single repository and deploy it as a single application.\n2. Strictly enforce modular boundaries *inside* the codebase (e.g., the billing module cannot directly mutate database tables belonging to the user module).\n3. Use a single, robust relational database (like PostgreSQL).\n\n**When should you switch to microservices?** \nOnly when:\n* Your monolith is so large that your build/deploy times are crippling productivity.\n* You have distinct parts of the system with wildly different scaling needs (e.g., processing millions of IoT streams vs. a standard CRUD dashboard).\n* **You actually have the team size to support it** (usually once you cross 30\u201350 engineers and have dedicated platform/DevOps teams).",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 23,
+      "output_tokens": 1074,
+      "latency_ms": 4817.0,
+      "cost": 0.0026919,
+      "complexity_score": 5,
+      "complexity_level": "HIGH",
+      "routing_reason": "high-complexity reasoning: compare, architecture",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 21,
+    "prompt": "Design a database schema for a multi-tenant SaaS app, explaining your trade-offs around isolation and cost.",
+    "expected": "HIGH",
+    "auto": {
+      "text": "Designing a database schema for a multi-tenant SaaS application requires balancing three competing forces: **Isolation** (security/noisy neighbors), **Cost** (infrastructure/maintenance), and **Complexity** (migration/operational overhead).\n\nBelow is a production-ready design using **PostgreSQL** that implements a **Pooled (Shared Database, Shared Schema with Tenant ID)** architecture, accompanied by a comprehensive analysis of architectural trade-offs.\n\n---\n\n### 1. Architectural Patterns: The Isolation vs. Cost Spectrum\n\nBefore looking at the schema, we must choose our multi-tenancy model. There are three primary approaches:\n\n1. **Silo (Database-per-Tenant):** Each tenant has their own database.\n   * *Pros:* Maximum isolation, easy backups/restores per tenant, simple compliance.\n   * *Cons:* Extremely high cost, connection pooling nightmares, difficult schema migrations.\n2. **Pool (Shared Database, Separate Schemas):** Tenants share a database, but each has a dedicated schema (`tenant_a.users`, `tenant_b.users`).\n   * *Pros:* Good isolation, manageable migrations via search paths.\n   * *Cons:* Connection limits reached faster, expensive scaling for high tenant counts.\n3. **Bridge (Shared Database, Shared Schema):** All tenants share the same tables, differentiated by a `tenant_id` column (Row-Level Security).\n   * *Pros:* Lowest cost, highly efficient connection pooling, trivial global analytics.\n   * *Cons:* Risk of data leaks if a query misses a `WHERE` clause; noisy neighbor issues.\n\n**Our Choice:** We will use the **Bridge (Shared Schema)** approach with **PostgreSQL Row-Level Security (RLS)**. This offers the lowest infrastructure cost and best resource utilization, while RLS mitigates the security risks of shared tables.\n\n---\n\n### 2. Database Schema Design (SQL)\n\nThis schema assumes a B2B SaaS application where organizations (tenants) have users, subscriptions, and application-specific data (e.g., projects and tasks).\n\n```sql\n-- Enable UUID extension for secure, unguessable IDs\nCREATE EXTENSION IF NOT EXISTS \"uuid-ossp\";\n\n-- ==========================================\n-- 1. TENANTS TABLE\n-- ==========================================\nCREATE TABLE tenants (\n    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),\n    name VARCHAR(255) NOT NULL,\n    subdomain VARCHAR(100) UNIQUE NOT NULL,\n    tier VARCHAR(50) NOT NULL DEFAULT 'free', -- free, pro, enterprise\n    status VARCHAR(50) NOT NULL DEFAULT 'active', -- active, suspended, deleted\n    settings JSONB DEFAULT '{}'::jsonb, -- Tenant-specific configurations\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,\n    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP\n);\n\n-- ==========================================\n-- 2. USERS TABLE\n-- ==========================================\nCREATE TABLE users (\n    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),\n    tenant_id UUID NOT NULL REFERENCES tenants(id) ON DELETE CASCADE,\n    email VARCHAR(255) NOT NULL,\n    password_hash VARCHAR(255) NOT NULL,\n    role VARCHAR(50) NOT NULL DEFAULT 'member', -- owner, admin, member\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,\n    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,\n    \n    -- Ensure email is unique *within* a tenant, but can be reused across tenants\n    CONSTRAINT unique_tenant_email UNIQUE (tenant_id, email)\n);\n\n-- ==========================================\n-- 3. PROJECTS TABLE (Tenant-scoped data)\n-- ==========================================\nCREATE TABLE projects (\n    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),\n    tenant_id UUID NOT NULL REFERENCES tenants(id) ON DELETE CASCADE,\n    name VARCHAR(255) NOT NULL,\n    description TEXT,\n    created_by UUID REFERENCES users(id) ON DELETE SET NULL,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP\n);\n\n-- ==========================================\n-- 4. INDEXES FOR PERFORMANCE\n-- ==========================================\n-- Every tenant-scoped table MUST have an index starting with tenant_id\nCREATE INDEX idx_users_tenant_id ON users(tenant_id);\nCREATE INDEX idx_projects_tenant_id ON projects(tenant_id);\n\n-- ==========================================\n-- 5. ROW LEVEL SECURITY (RLS)\n-- ==========================================\n-- Enable RLS on all multi-tenant tables\nALTER TABLE users ENABLE ROW LEVEL SECURITY;\nALTER TABLE projects ENABLE ROW LEVEL SECURITY;\n\n-- Create policies that restrict rows to the current session's tenant\n-- (Application must set current_setting('app.current_tenant_id') upon connection)\n\nCREATE POLICY tenant_isolation_policy_users ON users\n    USING (tenant_id = NULLIF(current_setting('app.current_tenant_id', true), '')::UUID);\n\nCREATE POLICY tenant_isolation_policy_projects ON projects\n    USING (tenant_id = NULLIF(current_setting('app.current_tenant_id', true), '')::UUID);\n```\n\n---\n\n### 3. Application-Layer Enforcement\n\nRelying solely on database RLS is risky. The application layer must also enforce tenant boundaries.\n\n1. **Middleware Context:** Every incoming HTTP request extracts the tenant (via subdomain, JWT claim, or API key).\n2. **Database Session Initialization:** Before executing queries, the transaction sets the tenant context:\n   ```sql\n   SET LOCAL app.current_tenant_id = 'a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11';\n   ```\n3. **ORM Scoping:** Use ORM global scopes (e.g., Prisma extensions, ActiveRecord acts_as_tenant) to automatically append `.where({ tenant_id })` to every query.\n\n---\n\n### 4. Trade-Off Analysis: Isolation vs. Cost vs. Complexity\n\n| Dimension | Our Choice (Shared Schema + RLS) | Alternative A (Database-per-Tenant) | Alternative B (Schema-per-Tenant) |\n| :--- | :--- | :--- | :--- |\n| **Infrastructure Cost** | **Very Low.** Thousands of tenants share a single database instance and connection pool. | **Very High.** Each tenant requires dedicated storage, memory, and CPU overhead. | **Moderate.** Shared DB engine, but metadata overhead scales linearly with schema count. |\n| **Security & Isolation** | **Medium.** Mitigated by Postgres RLS, but a bug in application middleware could theoretically expose cross-tenant data. | **Maximum.** Physical separation. Impossible for Tenant A to see Tenant B's data via SQL bugs. | **High.** Strong logical separation, but vulnerable to SQL injection spanning schemas. |\n| **Migration Complexity** | **Low.** A single `ALTER TABLE` updates all tenants simultaneously in seconds. | **Very High.** Running migrations across 5,000 separate databases requires complex orchestration tools. | **Moderate.** Requires running migration scripts iteratively across every schema. |\n| **Backup & Restore** | **Hard.** Restoring data for a *single* tenant requires complex point-in-time recovery and data slicing. | **Trivial.** `pg_dump` and restore a single database file for an individual tenant. | **Easy.** Can dump/restore individual schemas independently. |\n| **\"Noisy Neighbor\" Risk** | **High.** One tenant running an unindexed query can consume all CPU/IOPS, degrading others. | **None.** Tenants are completely isolated on separate hardware/instances. | **Medium.** Isolated metadata/tables, but sharing the same DB buffer pool and CPU. |\n\n---\n\n### 5. Architectural Evolution Strategy (Handling Growth)\n\nA great SaaS architecture evolves as the business scales. You should not start with database-per-tenant, nor should you stay on shared-schema forever.\n\n* **Phase 1 (0 \u2013 1,000 Tenants):** Use the **Shared Schema + RLS** model outlined above. Keep infrastructure costs minimal while product-market fit is validated.\n* **Phase 2 (1,000 \u2013 10,000 Tenants):** Implement **Read Replicas** for heavy analytics queries, introduce Redis caching to offload the database, and use connection poolers like PgBouncer.\n* **Phase 3 (Enterprise Tier / 10,000+ Tenants):** Introduce a **Hybrid Tiering Model**:\n  * *Free / Standard Tiers* remain on the **Shared Schema** (maximizing margin).\n  * *Enterprise Tiers* (who pay 10x\u201350x more) are migrated to dedicated **Database-per-Tenant** instances, satisfying enterprise compliance, audit requirements, and completely eliminating noisy neighbors.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 23,
+      "output_tokens": 1931,
+      "latency_ms": 7445.9,
+      "cost": 0.0048344,
+      "complexity_score": 5,
+      "complexity_level": "HIGH",
+      "routing_reason": "high-complexity reasoning: design, trade-off, multi-tenant",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 22,
+    "prompt": "Walk me through refactoring this legacy codebase step by step, prioritizing the riskiest parts first.",
+    "expected": "HIGH",
+    "auto": {
+      "text": "I would love to help you refactor your legacy codebase! However, you didn\u2019t include the code or describe the project yet. \n\nTo give you the most effective, battle-tested refactoring plan, please share a bit about what we're working with. \n\n**Tell me about:**\n1. **The Code:** Paste snippets of the most critical, complex, or messy parts (or describe the architecture, language, and biggest pain points).\n2. **The Risks:** What currently breaks the most? Where are the bottlenecks, security concerns, or frequent bug reports?\n3. **The Safety Net:** Do you have existing tests (unit, integration, end-to-end), or is it entirely untested?\n4. **The Goal:** Are you trying to add a new feature, improve performance, pay down technical debt, or prepare for a migration?\n\n---\n\nOnce you share that, we will follow a rigorous, risk-first methodology:\n\n### Our Step-by-Step Refactoring Strategy\n\n* **Step 1: Build the Safety Net (Characterization Testing)**\n  * *Why:* You can't safely refactor what you can't test. We'll write tests that lock in the *current* behavior (even the buggy parts) so we know immediately if we break something.\n* **Step 2: Isolate the \"Hotspots\" (The Riskiest Parts)**\n  * *Why:* Tackle the God-classes, deep callback hell, circular dependencies, or tightly coupled database logic first. We'll wrap them in interfaces or boundaries so they stop contaminating the rest of the system.\n* **Step 3: Extract and Simplify (The Boy Scout Rule)**\n  * *Why:* Break massive functions into smaller, single-responsibility units. Remove dead code, fix naming conventions, and reduce cyclomatic complexity one small, atomic commit at a time.\n* **Step 4: Modernize Patterns & Dependencies**\n  * *Why:* Bring outdated syntax, deprecated libraries, or poor architectural patterns up to modern standards now that the logic is clean and tested.\n* **Step 5: Continuous Integration & Verification**\n  * *Why:* Run our test suite constantly to ensure regression-free progress.\n\nWhenever you're ready, **drop the code or details below**, and we'll get started on Step 1!",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 21,
+      "output_tokens": 494,
+      "latency_ms": 3153.6,
+      "cost": 0.0012413,
+      "complexity_score": 6,
+      "complexity_level": "HIGH",
+      "routing_reason": "multi-step task (+3); moderate reasoning: code",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 23,
+    "prompt": "Analyze why our model's accuracy dropped after deployment and propose a root-cause investigation plan.",
+    "expected": "HIGH",
+    "auto": {
+      "text": "A sudden drop in model accuracy after deployment is one of the most common and critical challenges in Machine Learning Operations (MLOps). It typically indicates a divergence between the controlled training/validation environment and the chaotic, dynamic production environment.\n\nHere is a structured framework to analyze *why* the drop happened, followed by a step-by-step root-cause investigation plan.\n\n---\n\n### Part 1: Why Did the Accuracy Drop? (Hypothesis Generation)\n\nBefore diving into data, we can categorize potential failure modes into four main buckets:\n\n#### 1. Data Drift and Covariate Shift (The World Changed)\n*   **Covariate Shift ($P(X)$ changes):** The distribution of input features has changed compared to training data. For example, a fraud detection model trained in 2021 sees entirely new transaction patterns in 2024.\n*   **Concept Drift ($P(Y|X)$ changes):** The statistical relationship between the features and the target has changed. For example, economic inflation changes what constitutes \"suspicious spending.\"\n*   **Prior Probability Shift ($P(Y)$ changes):** The baseline frequency of the target has changed (e.g., a disease outbreak suddenly increases the positive class ratio).\n\n#### 2. Pipeline and Data Engineering Failures (Engineering Bugs)\n*   **Training-Serving Skew:** The way features are calculated during inference differs from training. \n    *   *Example:* Imputing missing values with the mean during training, but using zero during inference.\n    *   *Example:* Timezone mismatches or normalization scaling errors (e.g., dividing by 255 vs. 1).\n*   **Data Degradation:** upstream data pipelines are feeding corrupted, delayed, or null data into the model.\n\n#### 3. Labeling and Feedback Loop Issues (Evaluation Errors)\n*   **Delayed Feedback:** The ground truth for production data takes weeks to arrive, and early evaluations are using proxy labels or are skewed.\n*   **Selection Bias in Production:** The model is only seeing a subset of the population because the system prevents certain predictions from being realized (e.g., a credit model rejecting risky applicants means we never learn if they would have defaulted).\n\n#### 4. Infrastructure and Integration Issues\n*   **Quantization or Serialization Errors:** Converting a model from PyTorch/TF to ONNX or TensorRT introduced numerical precision losses.\n*   **Dependency Mismatches:** Different library versions (e.g., `scikit-learn` or `pandas`) between training and inference environments causing subtle output differences.\n\n---\n\n### Part 2: Root-Cause Investigation Plan\n\nExecute this 5-phase investigation plan systematically to isolate the issue.\n\n#### Phase 1: Triage and Scope Assessment (Hours 0\u20134)\n*Goal: Quantify the drop and ensure system stability.*\n1.  **Define the Drop:** Is the drop uniform across all metrics (Precision, Recall, F1, Accuracy), or localized to a specific class or demographic?\n2.  **Establish a Baseline:** Compare production performance against the validation/test set metrics. \n3.  **Check System Health:** Verify that API calls are succeeding, latency is normal, and no exception errors are being thrown by the inference service.\n\n#### Phase 2: Data Quality and Pipeline Audit (Day 1)\n*Goal: Rule out engineering bugs and data corruption.*\n1.  **Compare Feature Distributions:** Take a sample of recent inference data ($X_{prod}$) and compare it to the training dataset ($X_{train}$).\n    *   Use statistical tests like **Population Stability Index (PSI)**, **Kolmogorov-Smirnov (KS) test**, or Chi-Square tests.\n    *   Check for unexpected null values, infinite values, or out-of-bounds ranges.\n2.  **Audit Feature Engineering Code:** Review the inference pipeline code line-by-line against the training feature extraction scripts. Look specifically for hardcoded scalers, encoders, and default values.\n3.  **Check Serialization:** Run a known test batch through both the local training notebook and the deployed endpoint to verify identical outputs.\n\n#### Phase 3: Model Behavior and Drift Analysis (Day 2)\n*Goal: Determine if the environment or user behavior has changed.*\n1.  **Analyze Prediction Distribution:** Look at the distribution of the model\u2019s *outputs* ($\\hat{Y}$). Is the model suddenly predicting all zeros, all ones, or hallucinating high-confidence wrong answers?\n2.  **Perform Error Analysis on Production Failures:** Collect a sample of recent predictions where ground truth is known (or manually label a small batch of 200\u2013500 recent production samples). \n    *   Group errors by type (False Positives vs. False Negatives).\n    *   Identify if errors correlate with specific new segments or edge cases.\n3.  **Check for Adversarial Activity or Bot Traffic:** If consumer-facing, check if bots or malicious actors are probing the API with out-of-distribution inputs.\n\n#### Phase 4: Remediation and Mitigation (Day 3)\n*Goal: Restore acceptable performance while a permanent fix is developed.*\n*   **Scenario A (Engineering Bug Found):** Hotfix the pipeline/serialization issue and redeploy.\n*   **Scenario B (Data/Concept Drift Found):** \n    *   Temporarily fallback to a simpler heuristic or older, more robust rule-based system if performance is dangerously low.\n    *   Collect recent production data, label it, and prepare an **urgent retraining dataset**.\n*   **Scenario C (Localized Failure):** Implement a guardrail (e.g., if input falls into region $X$, route to human review or fallback model).\n\n#### Phase 5: Long-Term MLOps Hardening (Post-Incident)\n*Goal: Ensure this never happens again.*\n1.  **Automated Monitoring:** Implement real-time monitoring for **Data Drift** (using tools like Evidently AI, WhyLabs, or Arize) with automated alerts.\n2.  **Shadow Deployment / Canary Releases:** Ensure future models are rolled out to a small percentage of traffic (Canary) or run in shadow mode before full deployment.\n3.  **Unit Testing for ML:** Add integration tests that specifically check for training-serving skew and schema validation before deployment pipelines approve a build.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 20,
+      "output_tokens": 1347,
+      "latency_ms": 6867.9,
+      "cost": 0.0033735,
+      "complexity_score": 8,
+      "complexity_level": "HIGH",
+      "routing_reason": "high-complexity reasoning: analyze, propose, accuracy dropped; multi-step task (+3)",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 24,
+    "prompt": "If a train leaves at 60mph and another at 90mph in opposite directions 300 miles apart, when do they meet?",
+    "expected": "MEDIUM",
+    "auto": {
+      "text": "They will meet in **2 hours**. \n\nHere is the step-by-step breakdown:\n\n1. **Find the combined speed:** Since they are traveling in opposite directions, you add their speeds together. \n   60 mph + 90 mph = 150 mph.\n2. **Calculate the time:** Divide the total distance by the combined speed. \n   300 miles \u00f7 150 mph = 2 hours.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 32,
+      "output_tokens": 96,
+      "latency_ms": 1010.3,
+      "cost": 0.0002496,
+      "complexity_score": 3,
+      "complexity_level": "MEDIUM",
+      "routing_reason": "moderate reasoning: train leaves",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 25,
+    "prompt": "Should a small business prioritize paying off debt or investing surplus cash first?",
+    "expected": "MEDIUM",
+    "auto": {
+      "text": "For a small business, the decision to prioritize paying off debt or investing surplus cash is one of the most critical financial balancing acts. \n\nThere is no universal \"correct\" answer, but the standard rule of thumb in finance is: **Compare the after-tax interest rate of your debt to the expected return on your investments.** If your debt costs more than your investments can reliably earn, pay off the debt. If your investments can outearn the cost of your debt, invest.\n\nHowever, running a small business is about more than just cold math; it\u2019s about **risk management and cash flow.** \n\nHere is a step-by-step framework to help you decide what to prioritize.\n\n---\n\n### Step 1: Always Secure Your \"Emergency Runway\" First\nBefore you pay down extra debt or make growth investments, ensure your business has a cash buffer. \n* **Rule of thumb:** Keep **3 to 6 months** of operating expenses in a liquid savings account. \n* **Why:** If you throw all your surplus cash at debt and an unexpected emergency hits (a broken piece of equipment, a lost client, a delayed invoice), you may be forced to take on *new*, more expensive debt. \n\n---\n\n### Step 2: Evaluate Your Debt (The \"Good\" vs. \"Toxic\" Test)\nNot all debt is created equal. Look at the interest rates and terms of what you currently owe:\n\n* **High-Interest Debt (Above 8\u201310%):** This includes credit cards, merchant cash advances, short-term working capital loans, and equipment leases with predatory rates. \n  * **Verdict:** **Aggressively pay this off first.** The interest rate on this debt acts as a guaranteed negative return on your money. Paying it off is essentially a guaranteed \"return\" equal to the interest rate.\n* **Low-Interest Debt (Under 5\u20136%):** This might include older SBA loans, low-rate equipment financing, or economic injury disaster loans (EIDLs) secured years ago.\n  * **Verdict:** **Consider paying the minimum.** If inflation is running higher than your interest rate, you are effectively paying back that debt with \"cheaper\" future dollars. You may be better off investing that cash elsewhere.\n\n---\n\n### Step 3: Evaluate the Investment Opportunity\nIf you have surplus cash and low-interest debt, look at what you could do with the money by investing it back into the business:\n\n* **High-ROI Investments:** Will this cash directly generate more revenue? For example:\n  * Buying inventory upfront to secure volume discounts.\n  * Hiring a salesperson who will bring in multiples of their salary.\n  * Upgrading software or machinery that drastically reduces labor costs or increases output.\n  * **Verdict:** **Invest the cash.** If an investment has a projected Return on Investment (ROI) of 20% and your loan costs 6%, you make more money by investing.\n* **Speculative/Low-ROI Investments:** Upgrading the office aesthetics, launching an unproven marketing campaign, or buying non-essential luxury items.\n  * **Verdict:** **Pay down debt instead.** Don't take risks with surplus cash if the potential return is murky.\n\n---\n\n### Step 4: Consider the Psychological Factor (Peace of Mind)\nBusiness owners are human, and debt causes stress. \n* Having high debt can restrict your risk tolerance, keep you up at night, and limit your ability to pivot if market conditions change. \n* If being debt-free gives you the psychological freedom to make bolder, better business decisions, **lean toward paying off debt**, even if the math slightly favors investing.\n\n---\n\n### Summary Checklist: Which should you do?\n\n**Prioritize paying off debt if:**\n1. Your interest rates are high (double digits).\n2. The debt requires personal guarantees that stress you out.\n3. Your industry is highly volatile, and you want to lower your monthly fixed overhead.\n4. You don't have clear, high-return projects ready to fund.\n\n**Prioritize investing surplus cash if:**\n1. Your debt is low-interest (under 5\u20136%).\n2. You have less than 3 months of operating cash in reserve (build this first).\n3. You have a time-sensitive growth opportunity with a proven, high ROI.\n4. Inflation is outpacing your debt\u2019s interest rate.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 15,
+      "output_tokens": 932,
+      "latency_ms": 4121.7,
+      "cost": 0.0023345,
+      "complexity_score": 3,
+      "complexity_level": "MEDIUM",
+      "routing_reason": "moderate reasoning: should",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 26,
+    "prompt": "What's the healthiest way to lose 10 pounds in 2 months?",
+    "expected": "MEDIUM",
+    "auto": {
+      "text": "Losing 10 pounds in 2 months (about 8 weeks) translates to a rate of **1.25 pounds per week**. This is considered the **gold standard for healthy weight loss** by major health organizations like the CDC and the Mayo Clinic. \n\nBecause it\u2019s a gradual pace, you are much more likely to lose actual fat rather than water weight or muscle, and you won't have to starve yourself.\n\nHere is the healthiest, most sustainable blueprint to achieve this.\n\n---\n\n### 1. The Math: Create a Modest Calorie Deficit\nTo lose a pound of fat, you generally need to burn about 3,500 more calories than you consume over time. \n* To lose 1.25 pounds a week, you need a daily deficit of about **500 to 625 calories**.\n* This can be achieved by eating slightly less, moving slightly more, or (best of all) a combination of both. \n* **Do not drop your calories too low.** Going below 1,200 calories a day (for women) or 1,500 calories a day (for men) can slow down your metabolism, cause fatigue, and lead to muscle loss.\n\n### 2. Focus on Protein and Fiber (Nutrition)\nInstead of cutting entire food groups, focus on crowding out ultra-processed foods with nutrient-dense ones:\n* **Prioritize Protein:** Protein keeps you full, preserves your muscle mass, and requires more energy for your body to digest than carbs or fats. Include a source of lean protein (chicken, fish, tofu, eggs, Greek yogurt, legumes) in every meal.\n* **Load up on Fiber:** Vegetables, fruits, whole grains, and beans keep your digestion running smoothly and keep hunger hormones at bay. \n* **Hydrate:** Often, thirst is disguised as hunger. Drink plenty of water throughout the day. Swap sugary sodas and juices for water, unsweetened tea, or black coffee.\n\n### 3. Move with Purpose (Exercise)\nYou don't need to live at the crossfit gym, but consistency is key:\n* **Resistance Training (2\u20133 times a week):** Lifting weights, doing bodyweight exercises (push-ups, squats), or using resistance bands tells your body to hold onto muscle while burning fat. More muscle also means a slightly higher resting metabolism.\n* **Increase Daily Movement (NEAT):** Non-Exercise Activity Thermogenesis accounts for a huge portion of the calories you burn daily. Aim for **7,000 to 10,000 steps a day**. Take the stairs, park further away, or go for a 20-minute walk after dinner.\n\n### 4. Prioritize Sleep and Manage Stress\nThis is the most overlooked part of weight loss:\n* When you are sleep-deprived, your body produces more **ghrelin** (the hunger hormone) and less **leptin** (the fullness hormone), making you crave sugary, high-calorie foods.\n* Chronic stress raises **cortisol**, a hormone that promotes fat storage, particularly around the midsection. Aim for 7\u20138 hours of quality sleep per night.\n\n---\n\n### A Sample Daily Routine\n* **Breakfast:** Scrambled eggs with spinach, a slice of whole-grain toast, and a side of berries.\n* **Lunch:** A large salad with grilled chicken or chickpeas, mixed greens, cucumbers, pumpkin seeds, and a vinaigrette dressing.\n* **Dinner:** Baked salmon or tofu, roasted broccoli, and a small portion of quinoa or sweet potato.\n* **Snacks:** An apple with a tablespoon of peanut butter, or Greek yogurt.\n\n### The Bottom Line\nOver 2 months, life will happen\u2014you might have a birthday party, a stressful week at work, or a weekend where you eat out. **That is okay.** The beauty of a 2-month timeline is that consistency beats perfection. If you stay on track 80% of the time, you will easily hit your 10-pound goal in a safe, healthy way. \n\n*Note: If you have any underlying health conditions, it\u2019s always a good idea to consult your doctor before starting a new diet or exercise routine.*",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 18,
+      "output_tokens": 902,
+      "latency_ms": 4076.7,
+      "cost": 0.0022604,
+      "complexity_score": 3,
+      "complexity_level": "MEDIUM",
+      "routing_reason": "moderate reasoning: healthiest",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 27,
+    "prompt": "Summarize the plot of Romeo and Juliet in 3 sentences.",
+    "expected": "LOW",
+    "auto": {
+      "text": "Two teenagers from rival families in Verona fall deeply in love at first sight and secretly marry despite their households' bitter feud. A series of tragic misunderstandings leads Romeo to believe Juliet is dead, prompting him to take his own life with poison. Upon waking and finding Romeo dead, Juliet kills herself with his dagger, ultimately uniting their grieving families in peace.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 14,
+      "output_tokens": 70,
+      "latency_ms": 1075.1,
+      "cost": 0.0001792,
+      "complexity_score": 0,
+      "complexity_level": "LOW",
+      "routing_reason": "simple factual request",
+      "fallback": false,
+      "fallback_reason": null
+    }
+  },
+  {
+    "id": 28,
+    "prompt": "What's the difference between a virus and bacteria?",
+    "expected": "LOW",
+    "auto": {
+      "text": "While both bacteria and viruses can make us sick, they are fundamentally different biological entities. The easiest way to understand the difference is to think of **bacteria as living, self-sufficient organisms**, and **viruses as non-living genetic parasites**.\n\nHere is a breakdown of the key differences:\n\n### 1. Living Status (Are they alive?)\n*   **Bacteria:** **Yes.** They are single-celled, living organisms. They consume nutrients, produce energy, and reproduce on their own.\n*   **Viruses:** **Debated.** Scientists generally consider viruses to be on the borderline between living and non-living. Outside of a host cell, a virus is completely inert (dead). It only shows signs of life when it hijacks a living cell.\n\n### 2. Size\n*   **Bacteria:** Much larger, though still microscopic (typically about 0.5 to 5 micrometers long). You can see them under a standard light microscope.\n*   **Viruses:** Extremely small\u2014about 100 to 1,000 times smaller than bacteria (typically 20 to 400 nanometers). You need an electron microscope to see a virus. \n*(Analogy: If a bacterium were the size of a football stadium, a virus would be about the size of a football.)*\n\n### 3. Structure\n*   **Bacteria:** Complete cellular structures. They have a cell wall, a cell membrane, cytoplasm, and ribosomes. They also contain DNA floating freely in the cell.\n*   **Viruses:** Very simple structures. They consist of a piece of genetic material (either DNA or RNA) wrapped inside a protein coat (capsid). Some also have an outer fatty envelope. They lack the machinery to make energy or proteins on their own.\n\n### 4. Reproduction\n*   **Bacteria:** Reproduce asexually on their own. Most use a process called *binary fission*, where one bacterium grows and splits into two identical cells. Under the right conditions, they can multiply very rapidly.\n*   **Viruses:** Cannot reproduce on their own. They must invade a host cell (human, animal, plant, or even bacteria) and hijack the cell\u2019s internal machinery to make copies of themselves. Eventually, they burst out of the cell, destroying it, and go on to infect other cells.\n\n### 5. Treatment (Antibiotics vs. Vaccines)\n*   **Bacteria:** Treated with **antibiotics**. Antibiotics work by killing bacteria or stopping them from dividing (though bacteria can develop resistance to them over time). **Antibiotics do NOT work on viruses.**\n*   **Viruses:** Cannot be treated with antibiotics. Instead, viral infections are usually fought off by the body\u2019s immune system, sometimes with the help of **antiviral drugs**. **Vaccines** are the most effective tool for *preventing* viral infections.\n\n---\n\n### Summary Table\n\n| Feature | Bacteria | Virus |\n| :--- | :--- | :--- |\n| **Are they alive?** | Yes | No (inert outside a host) |\n| **Size** | Larger (Microscopic) | Extremely small (Sub-microscopic) |\n| **Structure** | Complex (Cells with walls, DNA, ribosomes) | Simple (Genetic material in a protein coat) |\n| **Reproduction** | On their own (Binary fission) | Only by hijacking a host cell |\n| **Good vs. Bad** | Most are helpful; some cause disease | Almost all cause disease |\n| **Treatment** | Antibiotics | Vaccines and antivirals (immune system clears it) |\n| **Examples** | Strep throat, UTI, Food poisoning | Common cold, Flu, HIV, COVID-19, Chickenpox |",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 12,
+      "output_tokens": 789,
+      "latency_ms": 3375.5,
+      "cost": 0.0019761,
+      "complexity_score": 0,
+      "complexity_level": "LOW",
+      "routing_reason": "simple factual request",
+      "fallback": false,
+      "fallback_reason": null
+    }
+  },
+  {
+    "id": 29,
+    "prompt": "How do vaccines generally work in the immune system?",
+    "expected": "MEDIUM",
+    "auto": {
+      "text": "Vaccines work by training the immune system to recognize and fight off specific pathogens (disease-causing agents like viruses or bacteria) **without causing the actual disease.** \n\nTo understand how vaccines work, it helps to understand how the immune system naturally responds to invaders.\n\n---\n\n### 1. The Immune System\u2019s Baseline Response\nWhen a foreign invader (an **antigen**) enters your body for the first time, your immune system mounts a defense. White blood cells called **B cells** produce proteins called **antibodies**, which latch onto the antigens to neutralize them. Other cells, like **T cells**, destroy infected cells and help coordinate the immune response. \n\nThis initial response can take days or weeks, which is why you get sick. However, the immune system keeps a few specialized cells\u2014called **memory cells**\u2014long after the infection is gone. If the same pathogen tries to invade again in the future, these memory cells recognize it instantly and mount a fast, powerful defense, usually stopping you from getting sick at all. This is called **immunity**.\n\n---\n\n### 2. What Vaccines Do\nA vaccine acts as a \"practice run\" for your immune system. Instead of exposing you to a dangerous, live disease, a vaccine introduces a harmless piece, a weakened version, or an inactivated blueprint of the pathogen. \n\nRegardless of the type of vaccine, the goal is always the same: **to trigger the production of memory cells.**\n\n---\n\n### 3. Step-by-Step Breakdown of Vaccination\n\n1. **Introduction:** The vaccine is administered (usually via injection). It contains antigens\u2014either weakened viruses, killed bacteria, protein fragments, or genetic instructions (like mRNA) to make those fragments.\n2. **Detection:** Your immune system recognizes these vaccine components as foreign invaders (antigens). It does not recognize them as part of your body.\n3. **Defense Activation:** The immune system launches an attack. B cells make antibodies specifically tailored to the vaccine\u2019s antigens, and T cells are activated. \n4. **Mild Symptoms (Optional):** Because the immune system is working hard, you might experience mild side effects like a low-grade fever, fatigue, or soreness at the injection site. **These are not the disease**; they are physical signs that your immune system is actively building its defense.\n5. **Memory Creation:** Once the threat is neutralized, the immune system clears out the vaccine components, but it leaves behind **memory B cells and memory T cells**. \n\n---\n\n### 4. Protection (The Real Test)\nMonths or years later, if you are exposed to the actual, live disease, your body doesn't need to waste time figuring out how to fight it. Your memory cells recognize the pathogen immediately, multiply rapidly, and destroy it before it can multiply and make you severely ill.\n\n---\n\n### Different Types of Vaccines\nScientists use different technologies to deliver the antigen and train the immune system:\n\n* **Live-Attenuated Vaccines:** Use a weakened (attenuated) form of the live virus. (e.g., MMR vaccine). They create a strong, lifelong immune response, but are usually not given to people with weakened immune systems.\n* **Inactivated Vaccines:** Use the pathogen killed by heat, chemicals, or radiation. (e.g., Polio vaccine). They cannot cause the disease, but often require booster shots.\n* **Subunit, Recombinant, or Polysaccharide Vaccines:** Use only specific pieces of the pathogen, like its protein coat, rather than the whole germ. (e.g., HPV, Hepatitis B).\n* **Toxoid Vaccines:** Use harmless toxins (toxoids) produced by the bacteria rather than the bacteria itself, teaching the immune system how to fight off the toxin. (e.g., Tetanus vaccine).\n* **mRNA / Viral Vector Vaccines:** Instead of putting an antigen into your body, these give your cells temporary genetic instructions (mRNA or a harmless carrier virus) to build a harmless piece of the pathogen yourself. Once your cells make the piece, they destroy the instructions, and your immune system reacts to the piece. (e.g., Pfizer-BioNTech, Moderna, Johnson & Johnson COVID-19 vaccines).",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 11,
+      "output_tokens": 877,
+      "latency_ms": 4203.9,
+      "cost": 0.0021958,
+      "complexity_score": 3,
+      "complexity_level": "MEDIUM",
+      "routing_reason": "moderate reasoning: how, vaccines",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  },
+  {
+    "id": 30,
+    "prompt": "Explain quantum entanglement in a way a teenager could understand, then discuss why it's still debated philosophically.",
+    "expected": "HIGH",
+    "auto": {
+      "text": "### Part 1: Quantum Entanglement (For Teens)\n\nImagine you and your best friend each have a magical pair of dice. You decide to separate: you stay home, and your friend gets on a rocket ship and flies to the edge of the galaxy. \n\nBefore you left, you performed a weird science trick so that the two dice became **quantum entangled**. \n\nRight now, in your hand, your die isn't showing a 1, a 2, a 3, a 4, a 5, or a 6. According to quantum physics, it is spinning as a chaotic blur, existing as *all numbers at once* until you actually look at it. \n\nYou decide to roll your die. It instantly stops spinning and lands on a **4**. \n\nAt that exact millisecond, millions of light-years away, your friend\u2019s die\u2014without anyone touching it\u2014stops spinning and lands on a **6**. Every single time you roll, your numbers are magically connected. If you get a 1, they get a 6. If you get a 3, they get a 4. \n\nEven weirder: **There is no internet, no text message, and no signal traveling between the dice.** The information didn't travel across space; it\u2019s as if space didn't even separate them. \n\nAlbert Einstein hated this idea. He called it **\"spooky action at a distance\"** because it seems to break the ultimate speed limit of the universe: the speed of light. Nothing is supposed to travel faster than light, yet entangled particles seem to communicate *instantly*, no matter how far apart they are. But thousands of laboratory experiments have proven it\u2019s real. It actually happens.\n\n---\n\n### Part 2: Why Is It Still Debated Philosophically?\n\nWhile physicists know *how* to use entanglement (it\u2019s the foundation of quantum computers and quantum internet), philosophers and theoretical thinkers still argue fiercely about *what it actually means* for our reality. \n\nThe debate usually boils down to a few major head-scratchers:\n\n#### 1. Does reality actually exist when we aren't looking at it?\nBefore you roll the die, it\u2019s a blur of all possibilities. Philosophers call this the debate between **Realism** (the idea that objects have definite properties whether we look at them or not) and **Anti-Realism** (the idea that properties don't exist until they are measured). \n* Entanglement suggests that the universe might not have a fixed, objective reality until it is observed. That\u2019s a terrifying thought for philosophers: *Does the moon exist if no one is looking at it?* Quantum mechanics leans toward \"sort of, no.\"\n\n#### 2. Local Realism is Dead (And people are sad about it)\nFor centuries, philosophy and science agreed on **Local Realism**. \"Local\" means nothing can travel faster than light. \"Real\" means objects have real properties. \nIn 1964, a physicist named John Bell created a mathematical test (Bell\u2019s Theorem) to check if local realism was true. Decades of experiments based on this theorem proved that **local realism is false**. \nPhilosophically, this means one of two mind-bending things must be true:\n* **Option A:** Objects *can* influence each other faster than light (spooky action).\n* **Option B:** The universe is **non-local**, meaning distance is an illusion. Deep down, everything in the universe might still be connected, as if the Big Bang never really separated them.\n\n#### 3. The Threat to Free Will and Determinism\nSome philosophers worry about what entanglement implies about cause and effect. If two particles can be linked in a way that transcends space and time, it hints at a deeply interconnected cosmos where standard cause-and-effect breaks down. While quantum randomness gives some people hope for free will (because the future isn't strictly pre-written), the holistic, web-like nature of entanglement makes others wonder if the universe is a single, giant, indivisible block where individual \"things\" (like you and me) are just illusions.\n\n### Summary\nQuantum entanglement is real: tiny particles can become invisibly linked so that what happens to one instantly affects the other, no matter the distance. Scientifically, we use it. Philosophically, it keeps thinkers up at night because it suggests our common-sense ideas about space, time, distance, and reality are completely wrong.",
+      "model": "gemini-3.5-flash-lite",
+      "input_tokens": 23,
+      "output_tokens": 945,
+      "latency_ms": 4547.6,
+      "cost": 0.0023694,
+      "complexity_score": 8,
+      "complexity_level": "HIGH",
+      "routing_reason": "high-complexity reasoning: quantum entanglement; multi-step task (+3)",
+      "fallback": true,
+      "fallback_reason": "strong_model_quota_exceeded"
+    }
+  }
+]

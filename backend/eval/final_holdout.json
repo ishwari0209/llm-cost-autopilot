@@ -1,0 +1,19 @@
+[
+  {"id": 201, "prompt": "What is the chemical symbol for gold?", "expected": "LOW"},
+  {"id": 202, "prompt": "Name the largest ocean on Earth.", "expected": "LOW"},
+  {"id": 203, "prompt": "What is a prime number?", "expected": "LOW"},
+  {"id": 204, "prompt": "How many days are in a leap year?", "expected": "LOW"},
+  {"id": 205, "prompt": "Spell out the number 47 in words.", "expected": "LOW"},
+
+  {"id": 206, "prompt": "What's a good way to start learning a new language as an adult?", "expected": "MEDIUM"},
+  {"id": 207, "prompt": "My Docker container keeps exiting right after it starts, any idea why?", "expected": "MEDIUM"},
+  {"id": 208, "prompt": "What's the difference between TCP and UDP?", "expected": "MEDIUM"},
+  {"id": 209, "prompt": "Is it worth getting a certification before applying for a data analyst role?", "expected": "MEDIUM"},
+  {"id": 210, "prompt": "Why do people get more anxious the night before a big event?", "expected": "MEDIUM"},
+
+  {"id": 211, "prompt": "Propose a migration path from a monolithic billing system to microservices without downtime, and weigh the risks at each stage.", "expected": "HIGH"},
+  {"id": 212, "prompt": "Why have some countries successfully transitioned to renewable energy while others have stalled despite similar starting conditions?", "expected": "HIGH"},
+  {"id": 213, "prompt": "Investigate why our checkout conversion rate dropped 15% last month and outline the most likely contributing factors in order of probability.", "expected": "HIGH"},
+  {"id": 214, "prompt": "Design a caching strategy for a high-traffic news site, explaining the trade-offs between freshness and load on the database.", "expected": "HIGH"},
+  {"id": 215, "prompt": "Assess whether our team should adopt a new testing framework, considering migration cost, learning curve, and long-term maintenance.", "expected": "HIGH"}
+]

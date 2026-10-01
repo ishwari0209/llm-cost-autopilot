@@ -1,0 +1,36 @@
+[
+  {"id": 1, "prompt": "What is the capital of France?", "expected": "LOW"},
+  {"id": 2, "prompt": "What is an API?", "expected": "LOW"},
+  {"id": 3, "prompt": "Define photosynthesis in one sentence.", "expected": "LOW"},
+  {"id": 4, "prompt": "What's 15% of 240?", "expected": "LOW"},
+  {"id": 5, "prompt": "Give me a synonym for 'happy'.", "expected": "LOW"},
+  {"id": 6, "prompt": "List 3 benefits of exercise.", "expected": "LOW"},
+  {"id": 7, "prompt": "What year did World War 2 end?", "expected": "LOW"},
+  {"id": 8, "prompt": "Translate 'good morning' to Spanish.", "expected": "LOW"},
+
+  {"id": 9, "prompt": "Why do some economies grow while others stagnate despite similar resources?", "expected": "HIGH"},
+  {"id": 10, "prompt": "What causes some people to be more creative than others?", "expected": "MEDIUM"},
+  {"id": 11, "prompt": "How should I think about switching careers at 35?", "expected": "MEDIUM"},
+  {"id": 12, "prompt": "Is it better to rent or buy a home right now?", "expected": "MEDIUM"},
+  {"id": 13, "prompt": "What makes a good leader during a crisis?", "expected": "MEDIUM"},
+  {"id": 14, "prompt": "Why did the Roman Empire eventually collapse?", "expected": "HIGH"},
+
+  {"id": 15, "prompt": "Can you help me debug this function? It's throwing a stack trace error I don't understand.", "expected": "MEDIUM"},
+  {"id": 16, "prompt": "Write a Python function to reverse a linked list.", "expected": "MEDIUM"},
+  {"id": 17, "prompt": "Explain the difference between SQL JOIN types with examples.", "expected": "MEDIUM"},
+  {"id": 18, "prompt": "My React app re-renders infinitely, here's the code, what's wrong?", "expected": "MEDIUM"},
+
+  {"id": 19, "prompt": "Analyze this 20-page technical document and identify architectural weaknesses, then explain step by step how you'd fix them, considering trade-offs and root causes.", "expected": "HIGH"},
+  {"id": 20, "prompt": "Compare microservices vs monolith architecture for a startup with 5 engineers, considering cost, complexity, and hiring.", "expected": "HIGH"},
+  {"id": 21, "prompt": "Design a database schema for a multi-tenant SaaS app, explaining your trade-offs around isolation and cost.", "expected": "HIGH"},
+  {"id": 22, "prompt": "Walk me through refactoring this legacy codebase step by step, prioritizing the riskiest parts first.", "expected": "HIGH"},
+  {"id": 23, "prompt": "Analyze why our model's accuracy dropped after deployment and propose a root-cause investigation plan.", "expected": "HIGH"},
+
+  {"id": 24, "prompt": "If a train leaves at 60mph and another at 90mph in opposite directions 300 miles apart, when do they meet?", "expected": "MEDIUM"},
+  {"id": 25, "prompt": "Should a small business prioritize paying off debt or investing surplus cash first?", "expected": "MEDIUM"},
+  {"id": 26, "prompt": "What's the healthiest way to lose 10 pounds in 2 months?", "expected": "MEDIUM"},
+  {"id": 27, "prompt": "Summarize the plot of Romeo and Juliet in 3 sentences.", "expected": "LOW"},
+  {"id": 28, "prompt": "What's the difference between a virus and bacteria?", "expected": "LOW"},
+  {"id": 29, "prompt": "How do vaccines generally work in the immune system?", "expected": "MEDIUM"},
+  {"id": 30, "prompt": "Explain quantum entanglement in a way a teenager could understand, then discuss why it's still debated philosophically.", "expected": "HIGH"}
+]

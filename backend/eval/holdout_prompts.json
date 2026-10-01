@@ -1,0 +1,19 @@
+[
+  {"id": 101, "prompt": "What is the boiling point of water in Celsius?", "expected": "LOW"},
+  {"id": 102, "prompt": "Give me a one-word antonym for 'ancient'.", "expected": "LOW"},
+  {"id": 103, "prompt": "What is a noun?", "expected": "LOW"},
+  {"id": 104, "prompt": "How many continents are there?", "expected": "LOW"},
+  {"id": 105, "prompt": "Convert 10 kilometers to miles.", "expected": "LOW"},
+
+  {"id": 106, "prompt": "What causes jet lag and how long does it usually last?", "expected": "MEDIUM"},
+  {"id": 107, "prompt": "How should I prepare for a job interview at a startup?", "expected": "MEDIUM"},
+  {"id": 108, "prompt": "This SQL query is returning duplicate rows, what might be wrong?", "expected": "MEDIUM"},
+  {"id": 109, "prompt": "What's the difference between a stack and a queue?", "expected": "MEDIUM"},
+  {"id": 110, "prompt": "Why do people procrastinate even when they know the deadline is close?", "expected": "MEDIUM"},
+
+  {"id": 111, "prompt": "Compare the trade-offs of serverless vs traditional server architecture for a growing e-commerce platform.", "expected": "HIGH"},
+  {"id": 112, "prompt": "Why do some countries maintain low inflation for decades while others experience chronic hyperinflation?", "expected": "HIGH"},
+  {"id": 113, "prompt": "Walk me through diagnosing a memory leak in a long-running Node.js service, prioritizing the most likely causes first.", "expected": "HIGH"},
+  {"id": 114, "prompt": "Design an authentication strategy for a mobile app that needs to work offline, explaining the security trade-offs.", "expected": "HIGH"},
+  {"id": 115, "prompt": "Evaluate whether a company should build its own ML infrastructure or rely on third-party APIs, considering cost and control.", "expected": "HIGH"}
+]
