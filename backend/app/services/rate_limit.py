@@ -2,7 +2,7 @@ from datetime import datetime
 
 from app.core.redis_client import redis_client
 
-RATE_LIMIT_PER_HOUR = 3  # adjust as needed for your free-tier quota
+RATE_LIMIT_PER_HOUR = 20 # adjust as needed for your free-tier quota
 
 
 def check_rate_limit(user_id: int) -> tuple[bool, int]:

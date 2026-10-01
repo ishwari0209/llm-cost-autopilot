@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
-
+from app.services.budget import get_budget_status
 from app.db.models import LLMModel, LLMRequest, RoutingDecision
 from app.db.session import get_db
 from app.providers.gemini import GeminiProvider
@@ -47,7 +47,8 @@ class ChatResponse(BaseModel):
 
     fallback: bool = False
     fallback_reason: str | None = None
-
+    budget_tier: str | None = None
+    budget_percent_used: float | None = None
 
 # -------------------------------------------------
 # Chat endpoint
@@ -59,7 +60,7 @@ def chat(
     db: Session = Depends(get_db)
 ):
 
-    # -------------------------------------------------
+       # -------------------------------------------------
     # 0. Rate limiting
     # -------------------------------------------------
 
@@ -72,19 +73,37 @@ def chat(
         )
 
     # -------------------------------------------------
-    # 1. Decide which model to use
+    # 0.1 Budget check
     # -------------------------------------------------
 
-    routing_info = None
+    budget = get_budget_status()
+
+    if budget.tier == "blocked":
+        raise HTTPException(
+            status_code=402,
+            detail=(
+                f"Monthly budget of ${budget.limit:.2f} exceeded "
+                f"(spent ${budget.spent:.4f}). "
+                "Requests are blocked until next month."
+            ),
+        )
+
+    # -------------------------------------------------
+    # 1. Decide which model to use
+    # -------------------------------------------------
+        routing_info = None
 
     if not req.model or req.model == "auto":
-
         if req.router_type == "llm":
             routing_info = classify_prompt(req.prompt)
         else:
             routing_info = score_prompt(req.prompt)
 
-        model_name = select_model(routing_info.level)
+        # Budget restriction → force cheapest model
+        if budget.tier == "restricted":
+            model_name = "gemini-3.5-flash-lite"
+        else:
+            model_name = select_model(routing_info.level)
 
     else:
         model_name = req.model
@@ -288,6 +307,8 @@ def chat(
         response_data["routing_reason"] = (
             "; ".join(routing_info.reasons)
         )
+        response_data["budget_tier"] = budget.tier
+        response_data["budget_percent_used"] = round(budget.percent_used, 1)
 
     # -------------------------------------------------
     # 10. Return response

@@ -5,7 +5,8 @@ class Settings(BaseSettings):
     database_url: str
     gemini_api_key: str
     default_model: str = "gemini-3.6-flash"
-    redis_url: str = "redis://localhost:6379/0"
+    redis_url: str 
+    monthly_budget: float = 5.00  # USD
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 settings = Settings()
